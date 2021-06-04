@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Squada One", cursive;
+  font-size: 20px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.imgNAV {
+  width: 100%;
+  height: 100%;
+}
+
+.nav {
+  top: auto;
+  min-height: 50px;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  background: rgb(210 234 245) 0%;
+}
+
+.botonHOME {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.abotonH {
+  color: black;
+}
+
+.botonMAIL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+.abotonM {
+  color: black;
+}
+
+.botonNAV {
+  height: 35px;
+  padding: 5px;
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 5px 5px gray;
+  border: 1px solid;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+.botonNAV:hover {
+  width: 21%;
+  height: 40px;
+  background: rgb(210 234 245) 0%;
+}
+
+.section0 {
+  min-height: 500px;
+  width: 60%;
+  margin: auto;
+  border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerInputsS0 {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.ipuputS0 {
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px gray;
+  cursor: text;
+}
+
+.containerDosS0 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: center;
+}
+
+/* .imagenCDos {
+  width: 100%;
+  background: transparent;
+  margin-bottom: 5px;
+} */
+
+.botonS0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 20%;
+  border-radius: 5px;
+  box-shadow: 5px 5px gray;
+  background: white;
+  border: 1px solid;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
+}
+
+.botonS0:hover {
+  width: 21%;
+  background: rgb(210 234 245) 0%;
+}
